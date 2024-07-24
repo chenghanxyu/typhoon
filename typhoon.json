@@ -3835,16 +3835,7 @@
             "pressure": "920",
             "movingSpeed": "11",
             "movingDirection": "S",
-            "movingPrediction": [
-              {
-                "value": "????15??????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "NW 15 KM/HR",
-                "lang": "en-us"
-              }
-            ],
+            "movingPrediction": [],
             "circleOf15Ms": {
               "radius": "250",
               "quadrantRadii": {
@@ -3886,6 +3877,71 @@
                   },
                   {
                     "value": "270",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "fixTime": "2024-07-24T21:00:00+08:00",
+            "coordinate": "121.9,23.7",
+            "maxWindSpeed": "53",
+            "maxGustSpeed": "65",
+            "pressure": "920",
+            "movingSpeed": "23",
+            "movingDirection": "ENE",
+            "movingPrediction": [
+              {
+                "value": "????15??????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "NW 15 KM/HR",
+                "lang": "en-us"
+              }
+            ],
+            "circleOf15Ms": {
+              "radius": "250",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "250",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "250",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "240",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "250",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            },
+            "circleOf25Ms": {
+              "radius": "80",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "250",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "250",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "240",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "250",
                     "dir": "NW"
                   }
                 ]
