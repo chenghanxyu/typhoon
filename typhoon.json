@@ -5530,15 +5530,22 @@
             "initTime": "2024-07-26T02:00:00+08:00",
             "tau": "24",
             "coordinate": "116.9,28.9",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
+            "maxWindSpeed": "15",
+            "maxGustSpeed": "23",
+            "pressure": "1000",
             "movingSpeed": "17",
             "movingDirection": "NNW",
-            "circleOf15Ms": {
-              "radius": "60"
-            },
-            "radiusOf70PercentProbability": "90"
+            "radiusOf70PercentProbability": "90",
+            "stateTransfers": [
+              {
+                "value": "?????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "BECOMING TROPICAL DEPRESSION",
+                "lang": "en-us"
+              }
+            ]
           }
         ]
       },
