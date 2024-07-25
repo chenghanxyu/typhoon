@@ -5179,62 +5179,6 @@
             "pressure": "975",
             "movingSpeed": "15",
             "movingDirection": "NW",
-            "movingPrediction": [],
-            "circleOf15Ms": {
-              "radius": "250",
-              "quadrantRadii": {
-                "radius": [
-                  {
-                    "value": "260",
-                    "dir": "NE"
-                  },
-                  {
-                    "value": "380",
-                    "dir": "SE"
-                  },
-                  {
-                    "value": "220",
-                    "dir": "SW"
-                  },
-                  {
-                    "value": "130",
-                    "dir": "NW"
-                  }
-                ]
-              }
-            },
-            "circleOf25Ms": {
-              "radius": "70",
-              "quadrantRadii": {
-                "radius": [
-                  {
-                    "value": "260",
-                    "dir": "NE"
-                  },
-                  {
-                    "value": "380",
-                    "dir": "SE"
-                  },
-                  {
-                    "value": "220",
-                    "dir": "SW"
-                  },
-                  {
-                    "value": "130",
-                    "dir": "NW"
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "fixTime": "2024-07-25T21:00:00+08:00",
-            "coordinate": "118.9,25.7",
-            "maxWindSpeed": "30",
-            "maxGustSpeed": "38",
-            "pressure": "975",
-            "movingSpeed": "23",
-            "movingDirection": "WNW",
             "movingPrediction": [
               {
                 "value": "????18?15??????????????",
