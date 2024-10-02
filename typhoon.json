@@ -5998,16 +5998,7 @@
             "pressure": "960",
             "movingSpeed": "11",
             "movingDirection": "N",
-            "movingPrediction": [
-              {
-                "value": "????9?4????????????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "NE TURNING NNE 9 KM/HR BECOMING SLOWLY 4 KM/HR",
-                "lang": "en-us"
-              }
-            ],
+            "movingPrediction": [],
             "circleOf15Ms": {
               "radius": "200",
               "quadrantRadii": {
@@ -6054,19 +6045,84 @@
                 ]
               }
             }
+          },
+          {
+            "fixTime": "2024-10-03T05:00:00+08:00",
+            "coordinate": "119.9,22.3",
+            "maxWindSpeed": "38",
+            "maxGustSpeed": "48",
+            "pressure": "960",
+            "movingSpeed": "10",
+            "movingDirection": "E",
+            "movingPrediction": [
+              {
+                "value": "????8?4?????????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "NNE 8 KM/HR BECOMING SLOWLY 4 KM/HR",
+                "lang": "en-us"
+              }
+            ],
+            "circleOf15Ms": {
+              "radius": "200",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "130",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "200",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "200",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "250",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            },
+            "circleOf25Ms": {
+              "radius": "70",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "130",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "200",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "200",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "250",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-10-03T02:00:00+08:00",
+            "initTime": "2024-10-03T05:00:00+08:00",
             "tau": "6",
-            "coordinate": "120.0,22.6",
+            "coordinate": "120.2,22.6",
             "maxWindSpeed": "35",
             "maxGustSpeed": "45",
             "pressure": "965",
-            "movingSpeed": "9",
+            "movingSpeed": "8",
             "movingDirection": "NE",
             "circleOf15Ms": {
               "radius": "200"
@@ -6077,16 +6133,16 @@
             "radiusOf70PercentProbability": "25"
           },
           {
-            "initTime": "2024-10-03T02:00:00+08:00",
+            "initTime": "2024-10-03T05:00:00+08:00",
             "tau": "12",
-            "coordinate": "120.3,23.0",
-            "maxWindSpeed": "33",
-            "maxGustSpeed": "43",
-            "pressure": "970",
-            "movingSpeed": "9",
-            "movingDirection": "NE",
+            "coordinate": "120.4,23.0",
+            "maxWindSpeed": "30",
+            "maxGustSpeed": "38",
+            "pressure": "975",
+            "movingSpeed": "8",
+            "movingDirection": "NNE",
             "circleOf15Ms": {
-              "radius": "200"
+              "radius": "180"
             },
             "circleOf25Ms": {
               "radius": "60"
@@ -6094,13 +6150,13 @@
             "radiusOf70PercentProbability": "50"
           },
           {
-            "initTime": "2024-10-03T02:00:00+08:00",
+            "initTime": "2024-10-03T05:00:00+08:00",
             "tau": "18",
-            "coordinate": "120.5,23.3",
-            "maxWindSpeed": "25",
-            "maxGustSpeed": "33",
-            "pressure": "985",
-            "movingSpeed": "7",
+            "coordinate": "120.5,23.2",
+            "maxWindSpeed": "23",
+            "maxGustSpeed": "30",
+            "pressure": "988",
+            "movingSpeed": "4",
             "movingDirection": "NNE",
             "circleOf15Ms": {
               "radius": "180"
@@ -6108,9 +6164,9 @@
             "radiusOf70PercentProbability": "70"
           },
           {
-            "initTime": "2024-10-03T02:00:00+08:00",
+            "initTime": "2024-10-03T05:00:00+08:00",
             "tau": "24",
-            "coordinate": "120.6,23.5",
+            "coordinate": "120.6,23.4",
             "maxWindSpeed": "20",
             "maxGustSpeed": "28",
             "pressure": "995",
@@ -6122,29 +6178,15 @@
             "radiusOf70PercentProbability": "90"
           },
           {
-            "initTime": "2024-10-03T02:00:00+08:00",
+            "initTime": "2024-10-03T05:00:00+08:00",
             "tau": "36",
-            "coordinate": "120.7,23.8",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "3",
-            "movingDirection": "NNE",
-            "circleOf15Ms": {
-              "radius": "150"
-            },
-            "radiusOf70PercentProbability": "120"
-          },
-          {
-            "initTime": "2024-10-03T02:00:00+08:00",
-            "tau": "48",
-            "coordinate": "120.7,24.3",
+            "coordinate": "120.7,23.7",
             "maxWindSpeed": "15",
             "maxGustSpeed": "23",
             "pressure": "1000",
-            "movingSpeed": "5",
-            "movingDirection": "N",
-            "radiusOf70PercentProbability": "150",
+            "movingSpeed": "3",
+            "movingDirection": "NNE",
+            "radiusOf70PercentProbability": "120",
             "stateTransfers": [
               {
                 "value": "?????????",
