@@ -6166,16 +6166,7 @@
             "pressure": "960",
             "movingSpeed": "0",
             "movingDirection": "S",
-            "movingPrediction": [
-              {
-                "value": "????8?4?????????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "NNE 8 KM/HR BECOMING SLOWLY 4 KM/HR",
-                "lang": "en-us"
-              }
-            ],
+            "movingPrediction": [],
             "circleOf15Ms": {
               "radius": "200",
               "quadrantRadii": {
@@ -6222,82 +6213,144 @@
                 ]
               }
             }
+          },
+          {
+            "fixTime": "2024-10-03T08:00:00+08:00",
+            "coordinate": "120.1,22.3",
+            "maxWindSpeed": "35",
+            "maxGustSpeed": "45",
+            "pressure": "965",
+            "movingSpeed": "10",
+            "movingDirection": "E",
+            "movingPrediction": [
+              {
+                "value": "????8?4???????????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "NNE TURNING NORTH 8 KM/HR BECOMING SLOWLY 4 KM/HR",
+                "lang": "en-us"
+              }
+            ],
+            "circleOf15Ms": {
+              "radius": "180",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "130",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "160",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "160",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "250",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            },
+            "circleOf25Ms": {
+              "radius": "50",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "130",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "160",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "160",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "250",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-10-03T05:00:00+08:00",
+            "initTime": "2024-10-03T08:00:00+08:00",
             "tau": "6",
-            "coordinate": "120.2,22.6",
-            "maxWindSpeed": "35",
-            "maxGustSpeed": "45",
-            "pressure": "965",
+            "coordinate": "120.4,22.6",
+            "maxWindSpeed": "30",
+            "maxGustSpeed": "38",
+            "pressure": "975",
             "movingSpeed": "8",
             "movingDirection": "NE",
             "circleOf15Ms": {
-              "radius": "200"
+              "radius": "180"
             },
             "circleOf25Ms": {
-              "radius": "60"
+              "radius": "50"
             },
             "radiusOf70PercentProbability": "25"
           },
           {
-            "initTime": "2024-10-03T05:00:00+08:00",
+            "initTime": "2024-10-03T08:00:00+08:00",
             "tau": "12",
-            "coordinate": "120.4,23.0",
-            "maxWindSpeed": "30",
-            "maxGustSpeed": "38",
-            "pressure": "975",
+            "coordinate": "120.5,23.0",
+            "maxWindSpeed": "25",
+            "maxGustSpeed": "33",
+            "pressure": "985",
             "movingSpeed": "8",
             "movingDirection": "NNE",
             "circleOf15Ms": {
               "radius": "180"
             },
-            "circleOf25Ms": {
-              "radius": "60"
-            },
             "radiusOf70PercentProbability": "50"
           },
           {
-            "initTime": "2024-10-03T05:00:00+08:00",
+            "initTime": "2024-10-03T08:00:00+08:00",
             "tau": "18",
             "coordinate": "120.5,23.2",
-            "maxWindSpeed": "23",
-            "maxGustSpeed": "30",
-            "pressure": "988",
+            "maxWindSpeed": "20",
+            "maxGustSpeed": "28",
+            "pressure": "995",
             "movingSpeed": "4",
-            "movingDirection": "NNE",
+            "movingDirection": "N",
             "circleOf15Ms": {
               "radius": "180"
             },
             "radiusOf70PercentProbability": "70"
           },
           {
-            "initTime": "2024-10-03T05:00:00+08:00",
+            "initTime": "2024-10-03T08:00:00+08:00",
             "tau": "24",
-            "coordinate": "120.6,23.4",
-            "maxWindSpeed": "20",
-            "maxGustSpeed": "28",
-            "pressure": "995",
+            "coordinate": "120.5,23.4",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
             "movingSpeed": "4",
-            "movingDirection": "NNE",
+            "movingDirection": "N",
             "circleOf15Ms": {
               "radius": "150"
             },
             "radiusOf70PercentProbability": "90"
           },
           {
-            "initTime": "2024-10-03T05:00:00+08:00",
+            "initTime": "2024-10-03T08:00:00+08:00",
             "tau": "36",
-            "coordinate": "120.7,23.7",
+            "coordinate": "120.5,23.7",
             "maxWindSpeed": "15",
             "maxGustSpeed": "23",
             "pressure": "1000",
             "movingSpeed": "3",
-            "movingDirection": "NNE",
+            "movingDirection": "N",
             "radiusOf70PercentProbability": "120",
             "stateTransfers": [
               {
