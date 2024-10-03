@@ -7158,16 +7158,7 @@
             "pressure": "998",
             "movingSpeed": "11",
             "movingDirection": "S",
-            "movingPrediction": [
-              {
-                "value": "????6???????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "NNW 6 KM/HR",
-                "lang": "en-us"
-              }
-            ],
+            "movingPrediction": [],
             "circleOf15Ms": {
               "radius": "80",
               "quadrantRadii": {
@@ -7191,42 +7182,51 @@
                 ]
               }
             }
+          },
+          {
+            "fixTime": "2024-10-04T05:00:00+08:00",
+            "coordinate": "120.5,22.7",
+            "maxWindSpeed": "15",
+            "maxGustSpeed": "20",
+            "pressure": "1004",
+            "movingSpeed": "0",
+            "movingDirection": "N",
+            "movingPrediction": [
+              {
+                "value": "??????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "ALMOST STATIONARY",
+                "lang": "en-us"
+              }
+            ]
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-10-04T02:00:00+08:00",
+            "initTime": "2024-10-04T05:00:00+08:00",
             "tau": "6",
-            "coordinate": "120.5,23.1",
-            "maxWindSpeed": "15",
-            "maxGustSpeed": "23",
-            "pressure": "1000",
-            "movingSpeed": "4",
-            "movingDirection": "NNW",
-            "radiusOf70PercentProbability": "25",
-            "stateTransfers": [
-              {
-                "value": "?????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "BECOMING TROPICAL DEPRESSION",
-                "lang": "en-us"
-              }
-            ]
+            "coordinate": "120.5,22.6",
+            "maxWindSpeed": "12",
+            "maxGustSpeed": "20",
+            "pressure": "1006",
+            "movingSpeed": "2",
+            "movingDirection": "S",
+            "radiusOf70PercentProbability": "45"
           },
           {
-            "initTime": "2024-10-04T02:00:00+08:00",
+            "initTime": "2024-10-04T05:00:00+08:00",
             "tau": "12",
-            "coordinate": "120.4,23.4",
-            "maxWindSpeed": "10",
-            "maxGustSpeed": "15",
-            "pressure": "1005",
-            "movingSpeed": "6",
-            "movingDirection": "NNW",
-            "radiusOf70PercentProbability": "50"
+            "coordinate": "120.5,22.5",
+            "maxWindSpeed": "12",
+            "maxGustSpeed": "20",
+            "pressure": "1008",
+            "movingSpeed": "2",
+            "movingDirection": "S",
+            "radiusOf70PercentProbability": "90"
           }
         ]
       },
