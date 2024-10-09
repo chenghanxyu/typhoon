@@ -1325,6 +1325,7 @@
   "updatedField": [
     {
       "year": 2024,
+      "typhoonName": "BARIJAT",
       "analysisData": {
         "fix": [
           {
@@ -1445,96 +1446,132 @@
             "pressure": "1002",
             "movingSpeed": "27",
             "movingDirection": "NNE",
+            "movingPrediction": []
+          },
+          {
+            "fixTime": "2024-10-09T14:00:00+08:00",
+            "coordinate": "149.4,27.5",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
+            "movingSpeed": "31",
+            "movingDirection": "NNE",
             "movingPrediction": [
               {
-                "value": "????33?28?????????????",
+                "value": "????26?39?????????????",
                 "lang": "zh-hant"
               },
               {
-                "value": "NORTH TURNING NNE 33 KM/HR BECOMING 28 KM/HR",
+                "value": "NORTH TURNING NNE 26 KM/HR BECOMING 39 KM/HR",
                 "lang": "en-us"
               }
-            ]
+            ],
+            "circleOf15Ms": {
+              "radius": "50",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "50",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-10-09T08:00:00+08:00",
+            "initTime": "2024-10-09T14:00:00+08:00",
             "tau": "6",
-            "coordinate": "148.8,27.4",
-            "maxWindSpeed": "15",
-            "maxGustSpeed": "23",
-            "pressure": "1002",
+            "coordinate": "149.3,29.0",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
             "movingSpeed": "28",
             "movingDirection": "N",
-            "radiusOf70PercentProbability": "50"
+            "circleOf15Ms": {
+              "radius": "50"
+            },
+            "radiusOf70PercentProbability": "30"
           },
           {
-            "initTime": "2024-10-09T08:00:00+08:00",
+            "initTime": "2024-10-09T14:00:00+08:00",
             "tau": "12",
-            "coordinate": "149.0,29.2",
+            "coordinate": "149.4,30.4",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
             "pressure": "998",
-            "movingSpeed": "33",
+            "movingSpeed": "26",
             "movingDirection": "N",
             "circleOf15Ms": {
               "radius": "50"
             },
-            "radiusOf70PercentProbability": "100"
+            "radiusOf70PercentProbability": "60"
           },
           {
-            "initTime": "2024-10-09T08:00:00+08:00",
+            "initTime": "2024-10-09T14:00:00+08:00",
             "tau": "18",
-            "coordinate": "149.1,30.5",
+            "coordinate": "150.1,31.6",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
             "pressure": "998",
-            "movingSpeed": "24",
-            "movingDirection": "N",
+            "movingSpeed": "25",
+            "movingDirection": "NNE",
             "circleOf15Ms": {
               "radius": "50"
             },
-            "radiusOf70PercentProbability": "125"
+            "radiusOf70PercentProbability": "75"
           },
           {
-            "initTime": "2024-10-09T08:00:00+08:00",
+            "initTime": "2024-10-09T14:00:00+08:00",
             "tau": "24",
-            "coordinate": "149.8,31.9",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "28",
+            "coordinate": "150.9,33.6",
+            "maxWindSpeed": "20",
+            "maxGustSpeed": "28",
+            "pressure": "995",
+            "movingSpeed": "39",
             "movingDirection": "NNE",
             "circleOf15Ms": {
               "radius": "50"
             },
-            "radiusOf70PercentProbability": "150"
+            "radiusOf70PercentProbability": "90"
           },
           {
-            "initTime": "2024-10-09T08:00:00+08:00",
+            "initTime": "2024-10-09T14:00:00+08:00",
             "tau": "36",
-            "coordinate": "151.7,35.2",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "34",
+            "coordinate": "152.9,37.5",
+            "maxWindSpeed": "20",
+            "maxGustSpeed": "28",
+            "pressure": "995",
+            "movingSpeed": "39",
             "movingDirection": "NNE",
             "circleOf15Ms": {
               "radius": "50"
             },
-            "radiusOf70PercentProbability": "230"
+            "radiusOf70PercentProbability": "130"
           },
           {
-            "initTime": "2024-10-09T08:00:00+08:00",
+            "initTime": "2024-10-09T14:00:00+08:00",
             "tau": "48",
-            "coordinate": "153.8,39.2",
-            "pressure": "998",
-            "movingSpeed": "40",
+            "coordinate": "155.1,41.9",
+            "pressure": "995",
+            "movingSpeed": "44",
             "movingDirection": "NNE",
-            "radiusOf70PercentProbability": "270",
+            "radiusOf70PercentProbability": "160",
             "stateTransfers": [
               {
                 "value": "???????",
@@ -1548,7 +1585,9 @@
           }
         ]
       },
-      "cwaTdNo": "23"
+      "cwaTyphoonName": "???",
+      "cwaTdNo": "23",
+      "cwaTyNo": "19"
     }
   ]
 }
