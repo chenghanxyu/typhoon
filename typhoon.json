@@ -1555,13 +1555,46 @@
             "pressure": "998",
             "movingSpeed": "38",
             "movingDirection": "NE",
+            "movingPrediction": [],
+            "circleOf15Ms": {
+              "radius": "50",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "50",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "fixTime": "2024-10-10T14:00:00+08:00",
+            "coordinate": "151.0,35.0",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
+            "movingSpeed": "44",
+            "movingDirection": "NNE",
             "movingPrediction": [
               {
-                "value": "????38?49???????????",
+                "value": "????43?????????????",
                 "lang": "zh-hant"
               },
               {
-                "value": "NNE 38 KM/HR BECOMING 49 KM/HR",
+                "value": "NNE TURNING NORTH 43 KM/HR",
                 "lang": "en-us"
               }
             ],
@@ -1594,27 +1627,27 @@
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-10-10T08:00:00+08:00",
+            "initTime": "2024-10-10T14:00:00+08:00",
             "tau": "6",
-            "coordinate": "150.9,33.8",
+            "coordinate": "151.7,35.7",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
             "pressure": "998",
-            "movingSpeed": "23",
-            "movingDirection": "NNE",
+            "movingSpeed": "17",
+            "movingDirection": "NE",
             "circleOf15Ms": {
               "radius": "50"
             },
             "radiusOf70PercentProbability": "30"
           },
           {
-            "initTime": "2024-10-10T08:00:00+08:00",
+            "initTime": "2024-10-10T14:00:00+08:00",
             "tau": "12",
-            "coordinate": "151.8,35.7",
+            "coordinate": "152.9,37.8",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
             "pressure": "998",
-            "movingSpeed": "38",
+            "movingSpeed": "43",
             "movingDirection": "NNE",
             "circleOf15Ms": {
               "radius": "50"
@@ -1622,41 +1655,27 @@
             "radiusOf70PercentProbability": "60"
           },
           {
-            "initTime": "2024-10-10T08:00:00+08:00",
+            "initTime": "2024-10-10T14:00:00+08:00",
             "tau": "18",
-            "coordinate": "152.9,37.8",
+            "coordinate": "153.3,40.0",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
             "pressure": "998",
-            "movingSpeed": "42",
-            "movingDirection": "NNE",
+            "movingSpeed": "41",
+            "movingDirection": "N",
             "circleOf15Ms": {
               "radius": "50"
             },
             "radiusOf70PercentProbability": "75"
           },
           {
-            "initTime": "2024-10-10T08:00:00+08:00",
+            "initTime": "2024-10-10T14:00:00+08:00",
             "tau": "24",
-            "coordinate": "154.0,40.3",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "49",
-            "movingDirection": "NNE",
-            "circleOf15Ms": {
-              "radius": "50"
-            },
-            "radiusOf70PercentProbability": "90"
-          },
-          {
-            "initTime": "2024-10-10T08:00:00+08:00",
-            "tau": "36",
-            "coordinate": "154.6,44.2",
+            "coordinate": "153.8,42.3",
             "pressure": "995",
-            "movingSpeed": "36",
+            "movingSpeed": "43",
             "movingDirection": "N",
-            "radiusOf70PercentProbability": "130",
+            "radiusOf70PercentProbability": "90",
             "stateTransfers": [
               {
                 "value": "???????",
