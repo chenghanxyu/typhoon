@@ -2393,19 +2393,6 @@
           },
           {
             "initTime": "2024-10-30T02:00:00+08:00",
-            "tau": "60",
-            "coordinate": "120.1,26.8",
-            "maxWindSpeed": "29",
-            "maxGustSpeed": "38",
-            "pressure": "978",
-            "movingSpeed": "22",
-            "movingDirection": "NNE",
-            "circleOf15Ms": {
-              "radius": "150"
-            }
-          },
-          {
-            "initTime": "2024-10-30T02:00:00+08:00",
             "tau": "72",
             "coordinate": "121.9,29.0",
             "maxWindSpeed": "20",
