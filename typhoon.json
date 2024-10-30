@@ -2620,6 +2620,62 @@
             "pressure": "915",
             "movingSpeed": "15",
             "movingDirection": "NW",
+            "movingPrediction": [],
+            "circleOf15Ms": {
+              "radius": "320",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "330",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "320",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "280",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "330",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            },
+            "circleOf25Ms": {
+              "radius": "120",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "330",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "320",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "280",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "330",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "fixTime": "2024-10-30T12:00:00+08:00",
+            "coordinate": "124.4,19.5",
+            "maxWindSpeed": "53",
+            "maxGustSpeed": "65",
+            "pressure": "915",
+            "movingSpeed": "15",
+            "movingDirection": "NW",
             "movingPrediction": [
               {
                 "value": "????19??????????",
@@ -2691,10 +2747,10 @@
             "movingSpeed": "13",
             "movingDirection": "NW",
             "circleOf15Ms": {
-              "radius": "320"
+              "radius": "330"
             },
             "circleOf25Ms": {
-              "radius": "110"
+              "radius": "120"
             },
             "radiusOf70PercentProbability": "30"
           },
@@ -2711,7 +2767,7 @@
               "radius": "320"
             },
             "circleOf25Ms": {
-              "radius": "110"
+              "radius": "120"
             },
             "radiusOf70PercentProbability": "60"
           },
@@ -2728,7 +2784,7 @@
               "radius": "320"
             },
             "circleOf25Ms": {
-              "radius": "110"
+              "radius": "120"
             },
             "radiusOf70PercentProbability": "75"
           },
@@ -2745,7 +2801,7 @@
               "radius": "320"
             },
             "circleOf25Ms": {
-              "radius": "110"
+              "radius": "120"
             },
             "radiusOf70PercentProbability": "90"
           },
