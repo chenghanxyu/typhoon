@@ -4972,6 +4972,39 @@
             "pressure": "980",
             "movingSpeed": "59",
             "movingDirection": "NNE",
+            "movingPrediction": [],
+            "circleOf15Ms": {
+              "radius": "180",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "210",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "180",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "130",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "210",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "fixTime": "2024-11-01T06:00:00+08:00",
+            "coordinate": "120.7,26.2",
+            "maxWindSpeed": "28",
+            "maxGustSpeed": "35",
+            "pressure": "980",
+            "movingSpeed": "49",
+            "movingDirection": "NNE",
             "movingPrediction": [
               {
                 "value": "????35?42???????????????",
@@ -5070,15 +5103,22 @@
             "initTime": "2024-11-01T05:00:00+08:00",
             "tau": "36",
             "coordinate": "131.2,31.8",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
+            "maxWindSpeed": "15",
+            "maxGustSpeed": "23",
+            "pressure": "1000",
             "movingSpeed": "43",
             "movingDirection": "ENE",
-            "circleOf15Ms": {
-              "radius": "100"
-            },
-            "radiusOf70PercentProbability": "130"
+            "radiusOf70PercentProbability": "130",
+            "stateTransfers": [
+              {
+                "value": "?????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "BECOMING TROPICAL DEPRESSION",
+                "lang": "en-us"
+              }
+            ]
           }
         ]
       },
