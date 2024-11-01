@@ -5005,6 +5005,39 @@
             "pressure": "980",
             "movingSpeed": "49",
             "movingDirection": "NNE",
+            "movingPrediction": [],
+            "circleOf15Ms": {
+              "radius": "180",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "210",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "180",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "130",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "210",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "fixTime": "2024-11-01T07:00:00+08:00",
+            "coordinate": "120.8,26.4",
+            "maxWindSpeed": "28",
+            "maxGustSpeed": "35",
+            "pressure": "980",
+            "movingSpeed": "24",
+            "movingDirection": "NNE",
             "movingPrediction": [
               {
                 "value": "????35?42???????????????",
