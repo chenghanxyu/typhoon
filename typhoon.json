@@ -5137,16 +5137,7 @@
             "pressure": "985",
             "movingSpeed": "24",
             "movingDirection": "NNE",
-            "movingPrediction": [
-              {
-                "value": "????34?46??????????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "NE TURNING ENE 34 KM/HR BECOMING 46 KM/HR",
-                "lang": "en-us"
-              }
-            ],
+            "movingPrediction": [],
             "circleOf15Ms": {
               "radius": "180",
               "quadrantRadii": {
@@ -5170,63 +5161,77 @@
                 ]
               }
             }
+          },
+          {
+            "fixTime": "2024-11-01T11:00:00+08:00",
+            "coordinate": "121.2,27.4",
+            "maxWindSpeed": "20",
+            "maxGustSpeed": "28",
+            "pressure": "995",
+            "movingSpeed": "24",
+            "movingDirection": "NNE",
+            "movingPrediction": [
+              {
+                "value": "????37??????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "NE 37 KM/HR",
+                "lang": "en-us"
+              }
+            ],
+            "circleOf15Ms": {
+              "radius": "120",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "150",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "150",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "70",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "100",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-11-01T08:00:00+08:00",
+            "initTime": "2024-11-01T11:00:00+08:00",
             "tau": "6",
-            "coordinate": "121.8,28.2",
-            "maxWindSpeed": "23",
-            "maxGustSpeed": "30",
-            "pressure": "988",
-            "movingSpeed": "34",
-            "movingDirection": "NNE",
-            "circleOf15Ms": {
-              "radius": "150"
-            },
-            "radiusOf70PercentProbability": "30"
-          },
-          {
-            "initTime": "2024-11-01T08:00:00+08:00",
-            "tau": "12",
-            "coordinate": "123.3,29.5",
-            "maxWindSpeed": "20",
-            "maxGustSpeed": "28",
-            "pressure": "995",
+            "coordinate": "122.5,28.9",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
             "movingSpeed": "34",
             "movingDirection": "NE",
             "circleOf15Ms": {
               "radius": "120"
             },
-            "radiusOf70PercentProbability": "60"
+            "radiusOf70PercentProbability": "30"
           },
           {
-            "initTime": "2024-11-01T08:00:00+08:00",
-            "tau": "18",
-            "coordinate": "125.3,30.4",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "36",
-            "movingDirection": "ENE",
-            "circleOf15Ms": {
-              "radius": "100"
-            },
-            "radiusOf70PercentProbability": "75"
-          },
-          {
-            "initTime": "2024-11-01T08:00:00+08:00",
-            "tau": "24",
-            "coordinate": "128.0,31.3",
+            "initTime": "2024-11-01T11:00:00+08:00",
+            "tau": "12",
+            "coordinate": "124.3,30.1",
             "maxWindSpeed": "15",
             "maxGustSpeed": "23",
             "pressure": "1000",
-            "movingSpeed": "46",
-            "movingDirection": "ENE",
-            "radiusOf70PercentProbability": "90",
+            "movingSpeed": "37",
+            "movingDirection": "NE",
+            "radiusOf70PercentProbability": "60",
             "stateTransfers": [
               {
                 "value": "?????????",
