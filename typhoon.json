@@ -3802,13 +3802,46 @@
             "pressure": "998",
             "movingSpeed": "10",
             "movingDirection": "E",
+            "movingPrediction": [],
+            "circleOf15Ms": {
+              "radius": "50",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "50",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "50",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "fixTime": "2024-11-16T08:00:00+08:00",
+            "coordinate": "120.2,22.2",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
+            "movingSpeed": "10",
+            "movingDirection": "E",
             "movingPrediction": [
               {
-                "value": "????13??????????",
+                "value": "????7???????????",
                 "lang": "zh-hant"
               },
               {
-                "value": "NE 13 KM/HR",
+                "value": "ENE 7 KM/HR",
                 "lang": "en-us"
               }
             ],
@@ -3841,13 +3874,13 @@
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-11-16T05:00:00+08:00",
+            "initTime": "2024-11-16T08:00:00+08:00",
             "tau": "6",
-            "coordinate": "120.8,22.4",
+            "coordinate": "120.6,22.3",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
             "pressure": "998",
-            "movingSpeed": "14",
+            "movingSpeed": "7",
             "movingDirection": "ENE",
             "circleOf15Ms": {
               "radius": "50"
@@ -3855,14 +3888,14 @@
             "radiusOf70PercentProbability": "25"
           },
           {
-            "initTime": "2024-11-16T05:00:00+08:00",
+            "initTime": "2024-11-16T08:00:00+08:00",
             "tau": "12",
-            "coordinate": "121.4,22.8",
+            "coordinate": "121.0,22.4",
             "maxWindSpeed": "15",
             "maxGustSpeed": "23",
             "pressure": "1000",
-            "movingSpeed": "13",
-            "movingDirection": "NE",
+            "movingSpeed": "7",
+            "movingDirection": "ENE",
             "radiusOf70PercentProbability": "50",
             "stateTransfers": [
               {
