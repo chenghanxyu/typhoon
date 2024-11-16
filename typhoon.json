@@ -3901,16 +3901,7 @@
             "pressure": "998",
             "movingSpeed": "10",
             "movingDirection": "E",
-            "movingPrediction": [
-              {
-                "value": "????7???????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "ENE 7 KM/HR",
-                "lang": "en-us"
-              }
-            ],
+            "movingPrediction": [],
             "circleOf15Ms": {
               "radius": "50",
               "quadrantRadii": {
@@ -3934,45 +3925,51 @@
                 ]
               }
             }
+          },
+          {
+            "fixTime": "2024-11-16T11:00:00+08:00",
+            "coordinate": "120.5,22.1",
+            "maxWindSpeed": "15",
+            "maxGustSpeed": "23",
+            "pressure": "1000",
+            "movingSpeed": "23",
+            "movingDirection": "ESE",
+            "movingPrediction": [
+              {
+                "value": "????7???????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "NNE 7 KM/HR",
+                "lang": "en-us"
+              }
+            ]
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-11-16T08:00:00+08:00",
+            "initTime": "2024-11-16T11:00:00+08:00",
             "tau": "6",
-            "coordinate": "120.6,22.3",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "7",
-            "movingDirection": "ENE",
-            "circleOf15Ms": {
-              "radius": "50"
-            },
-            "radiusOf70PercentProbability": "25"
-          },
-          {
-            "initTime": "2024-11-16T08:00:00+08:00",
-            "tau": "12",
-            "coordinate": "121.0,22.4",
+            "coordinate": "121.0,22.3",
             "maxWindSpeed": "15",
             "maxGustSpeed": "23",
             "pressure": "1000",
-            "movingSpeed": "7",
+            "movingSpeed": "9",
             "movingDirection": "ENE",
-            "radiusOf70PercentProbability": "50",
-            "stateTransfers": [
-              {
-                "value": "?????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "BECOMING TROPICAL DEPRESSION",
-                "lang": "en-us"
-              }
-            ]
+            "radiusOf70PercentProbability": "45"
+          },
+          {
+            "initTime": "2024-11-16T11:00:00+08:00",
+            "tau": "12",
+            "coordinate": "121.2,22.6",
+            "maxWindSpeed": "12",
+            "maxGustSpeed": "20",
+            "pressure": "1003",
+            "movingSpeed": "7",
+            "movingDirection": "NNE",
+            "radiusOf70PercentProbability": "90"
           }
         ]
       },
