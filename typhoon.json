@@ -2999,16 +2999,7 @@
             "pressure": "988",
             "movingSpeed": "21",
             "movingDirection": "W",
-            "movingPrediction": [
-              {
-                "value": "????16???????????",
-                "lang": "zh-hant"
-              },
-              {
-                "value": "WSW 16 KM/HR",
-                "lang": "en-us"
-              }
-            ],
+            "movingPrediction": [],
             "circleOf15Ms": {
               "radius": "120",
               "quadrantRadii": {
@@ -3032,19 +3023,61 @@
                 ]
               }
             }
+          },
+          {
+            "fixTime": "2024-11-19T14:00:00+08:00",
+            "coordinate": "113.0,18.8",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
+            "movingSpeed": "18",
+            "movingDirection": "WSW",
+            "movingPrediction": [
+              {
+                "value": "????17???????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "WSW 17 KM/HR",
+                "lang": "en-us"
+              }
+            ],
+            "circleOf15Ms": {
+              "radius": "100",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "110",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "60",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "110",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "110",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-11-19T08:00:00+08:00",
+            "initTime": "2024-11-19T14:00:00+08:00",
             "tau": "6",
-            "coordinate": "112.9,18.7",
-            "maxWindSpeed": "20",
-            "maxGustSpeed": "28",
-            "pressure": "995",
-            "movingSpeed": "20",
+            "coordinate": "112.2,18.4",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "998",
+            "movingSpeed": "16",
             "movingDirection": "WSW",
             "circleOf15Ms": {
               "radius": "100"
@@ -3052,29 +3085,15 @@
             "radiusOf70PercentProbability": "25"
           },
           {
-            "initTime": "2024-11-19T08:00:00+08:00",
+            "initTime": "2024-11-19T14:00:00+08:00",
             "tau": "12",
-            "coordinate": "112.1,18.4",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "15",
-            "movingDirection": "WSW",
-            "circleOf15Ms": {
-              "radius": "100"
-            },
-            "radiusOf70PercentProbability": "50"
-          },
-          {
-            "initTime": "2024-11-19T08:00:00+08:00",
-            "tau": "18",
             "coordinate": "111.3,18.0",
             "maxWindSpeed": "15",
             "maxGustSpeed": "23",
             "pressure": "1000",
-            "movingSpeed": "16",
+            "movingSpeed": "17",
             "movingDirection": "WSW",
-            "radiusOf70PercentProbability": "70",
+            "radiusOf70PercentProbability": "50",
             "stateTransfers": [
               {
                 "value": "?????????",
@@ -3085,17 +3104,6 @@
                 "lang": "en-us"
               }
             ]
-          },
-          {
-            "initTime": "2024-11-19T08:00:00+08:00",
-            "tau": "24",
-            "coordinate": "110.5,17.5",
-            "maxWindSpeed": "12",
-            "maxGustSpeed": "20",
-            "pressure": "1003",
-            "movingSpeed": "17",
-            "movingDirection": "WSW",
-            "radiusOf70PercentProbability": "90"
           }
         ]
       },
