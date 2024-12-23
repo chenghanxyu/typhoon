@@ -1325,6 +1325,7 @@
   "updatedField": [
     {
       "year": 2024,
+      "typhoonName": "PABUK",
       "analysisData": {
         "fix": [
           {
@@ -1375,102 +1376,150 @@
             "pressure": "1002",
             "movingSpeed": "4",
             "movingDirection": "E",
+            "movingPrediction": []
+          },
+          {
+            "fixTime": "2024-12-23T14:00:00+08:00",
+            "coordinate": "112.7,11.0",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "1000",
+            "movingSpeed": "5",
+            "movingDirection": "SW",
             "movingPrediction": [
               {
-                "value": "????5?6?????????????",
+                "value": "????7?????????????",
                 "lang": "zh-hant"
               },
               {
-                "value": "WEST TURNING WSW 5 KM/HR BECOMING 6 KM/HR",
+                "value": "WEST TURNING WSW 7 KM/HR",
                 "lang": "en-us"
               }
-            ]
+            ],
+            "circleOf15Ms": {
+              "radius": "80",
+              "quadrantRadii": {
+                "radius": [
+                  {
+                    "value": "70",
+                    "dir": "NE"
+                  },
+                  {
+                    "value": "70",
+                    "dir": "SE"
+                  },
+                  {
+                    "value": "90",
+                    "dir": "SW"
+                  },
+                  {
+                    "value": "90",
+                    "dir": "NW"
+                  }
+                ]
+              }
+            }
           }
         ]
       },
       "forecastData": {
         "fix": [
           {
-            "initTime": "2024-12-23T08:00:00+08:00",
+            "initTime": "2024-12-23T14:00:00+08:00",
             "tau": "6",
-            "coordinate": "112.3,11.4",
-            "maxWindSpeed": "15",
-            "maxGustSpeed": "23",
-            "pressure": "1002",
-            "movingSpeed": "12",
-            "movingDirection": "WNW",
-            "radiusOf70PercentProbability": "45"
-          },
-          {
-            "initTime": "2024-12-23T08:00:00+08:00",
-            "tau": "12",
-            "coordinate": "112.0,11.4",
+            "coordinate": "112.1,11.1",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "5",
+            "pressure": "1000",
+            "movingSpeed": "11",
             "movingDirection": "W",
             "circleOf15Ms": {
-              "radius": "100"
+              "radius": "80"
+            },
+            "radiusOf70PercentProbability": "25"
+          },
+          {
+            "initTime": "2024-12-23T14:00:00+08:00",
+            "tau": "12",
+            "coordinate": "111.7,11.1",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "1000",
+            "movingSpeed": "7",
+            "movingDirection": "W",
+            "circleOf15Ms": {
+              "radius": "80"
+            },
+            "radiusOf70PercentProbability": "50"
+          },
+          {
+            "initTime": "2024-12-23T14:00:00+08:00",
+            "tau": "18",
+            "coordinate": "111.3,11.0",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "1000",
+            "movingSpeed": "8",
+            "movingDirection": "WSW",
+            "circleOf15Ms": {
+              "radius": "80"
+            },
+            "radiusOf70PercentProbability": "70"
+          },
+          {
+            "initTime": "2024-12-23T14:00:00+08:00",
+            "tau": "24",
+            "coordinate": "111.0,10.9",
+            "maxWindSpeed": "18",
+            "maxGustSpeed": "25",
+            "pressure": "1000",
+            "movingSpeed": "6",
+            "movingDirection": "WSW",
+            "circleOf15Ms": {
+              "radius": "80"
             },
             "radiusOf70PercentProbability": "90"
           },
           {
-            "initTime": "2024-12-23T08:00:00+08:00",
-            "tau": "18",
-            "coordinate": "111.6,11.3",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "8",
-            "movingDirection": "WSW",
-            "circleOf15Ms": {
-              "radius": "100"
-            },
-            "radiusOf70PercentProbability": "115"
-          },
-          {
-            "initTime": "2024-12-23T08:00:00+08:00",
-            "tau": "24",
-            "coordinate": "111.3,11.2",
-            "maxWindSpeed": "18",
-            "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "6",
-            "movingDirection": "WSW",
-            "circleOf15Ms": {
-              "radius": "100"
-            },
-            "radiusOf70PercentProbability": "140"
-          },
-          {
-            "initTime": "2024-12-23T08:00:00+08:00",
+            "initTime": "2024-12-23T14:00:00+08:00",
             "tau": "36",
-            "coordinate": "110.6,11.1",
+            "coordinate": "109.9,10.7",
             "maxWindSpeed": "18",
             "maxGustSpeed": "25",
-            "pressure": "998",
-            "movingSpeed": "6",
+            "pressure": "1000",
+            "movingSpeed": "10",
             "movingDirection": "W",
             "circleOf15Ms": {
-              "radius": "100"
+              "radius": "80"
             },
-            "radiusOf70PercentProbability": "230"
+            "radiusOf70PercentProbability": "120"
           },
           {
-            "initTime": "2024-12-23T08:00:00+08:00",
+            "initTime": "2024-12-23T14:00:00+08:00",
             "tau": "48",
-            "coordinate": "109.0,11.0",
+            "coordinate": "108.0,10.4",
             "maxWindSpeed": "15",
             "maxGustSpeed": "23",
-            "pressure": "1000",
-            "movingSpeed": "15",
+            "pressure": "1002",
+            "movingSpeed": "18",
             "movingDirection": "W",
-            "radiusOf70PercentProbability": "270"
+            "radiusOf70PercentProbability": "170",
+            "stateTransfers": [
+              {
+                "value": "?????????",
+                "lang": "zh-hant"
+              },
+              {
+                "value": "BECOMING TROPICAL DEPRESSION",
+                "lang": "en-us"
+              }
+            ]
           }
         ]
       },
-      "cwaTdNo": "30"
+      "cwaTyphoonName": "??",
+      "cwaTdNo": "30",
+      "cwaTyNo": "26"
     }
   ]
 }
